@@ -13,3 +13,5 @@ Suggested improvements:
 - Use of session on backend code to automatically log a user out after a set period of inactivity - would require regular polling to the back end to update activity status.
 - Regular authentication check using 'token' and a user_id to prevent hacking of the front end code
 - Error handling in case the back end API is unavailable
+
+*Note : Frontend functionality won't work without a backend server - I used a simple xampp setup
